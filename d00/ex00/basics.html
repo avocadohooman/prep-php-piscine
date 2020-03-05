@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Basics</title>
+	<style>
+		body {background-color: pink;}
+		h1   {
+			margin-top: 50px;
+			color: white;
+			text-align: center;
+		}
+		p    {color: white;}
+		.images {
+			max-width: 512px;
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		} 
+		.amazon-img, .zalando-img{
+			float: left;
+			text-align: center;
+		}
+		img {
+			width: 256px;
+			height: 256px;
+		}
+		.me {
+			text-align: right;
+			font-family: monospace;
+			font-style: italic;
+		}
+		hr {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div class="title">
+		<h1>This is a Title &reg;</h1>
+	</div>
+	<div class="images">
+		<div class="amazon-img">
+			<img src = "https://bit.ly/2IjVqsU" alt="Amazon Shop" class="online-shop-1">
+			<a href="https://www.amazon.com"><p>www.amazon.com</p></a>
+		</div>
+		<div class="zalando-img">
+			<img src = "https://go.aws/2TDQoN4" alt="Zalando Shop" class="online-shop-2">
+			<a href="https://www.zalando.com"><p>www.zalando.com</p></a>
+		</div>
+	</div>
+	<hr>
+	<div class="me">
+		<p>© gmolin 2020</p>
+	</div>
+</body>
