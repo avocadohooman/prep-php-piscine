@@ -1,16 +1,49 @@
 #box {
 	border-radius: 10px;
 	box-shadow: 10px 10px 3px black;
+	padding: 15px;
 }
 body {
 	background-color: darkgray;
 }
 .header {
-	max-width: 1800px;
+	max-width: 1750px;
 	height: 200px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: grey;
+	background-color: #909090;
+	position: relative;
+}
+
+.header-img1 {
+	width: 40%;
+	height: 80%;
+	position: absolute;
+	top: 20px;
+}
+
+.header-img2{
+	width: 25%;
+	height: 100%;
+	position: absolute;
+	right: 50px;
+	top: 30px
+}
+
+.header-img3{
+	width: 2%;
+	height: 10%;
+	position: absolute;
+	right: 20px;
+	top: 200px
+}
+
+.header-img4{
+	width: 2%;
+	height: 10%;
+	position: absolute;
+	right: 20px;
+	top: 10px
 }
 
 .wrapper {
@@ -24,40 +57,155 @@ body {
 }
 
 .side-left {
-	width: 200px;
+	width: 150px;
 	height: 500px;
 	margin-right: 40px;
 	margin-left: 20px;
-	background-color: grey;
+	background-color: #909090;
+	position: relative;
 }
 
+.side-left-img1{
+	width: 50%;
+	height: 18%;
+	position: absolute;
+	left: 50px;
+	top: 10px
+}
+
+.side-left-img2{
+	width: 50%;
+	height: 18%;
+	position: absolute;
+	left: 50px;
+	top: 110px
+}
+
+.side-left-img3{
+	width: 50%;
+	height: 18%;
+	position: absolute;
+	left: 45px;
+	top: 210px;
+	border: 6px solid red;
+}
+
+.side-left-img4{
+	width: 50%;
+	height: 18%;
+	position: absolute;
+	left: 50px;
+	top: 320px;
+}
+
+.side-left-img5{
+	width: 50%;
+	height: 18%;
+	position: absolute;
+	left: 50px;
+	top: 420px;
+}
 .center {
 	width: 1200px;
-	height: 800px;
-	background-color: grey;
+	height: 700px;
+	background-color: #909090;
+	position: relative;
+}
+
+.empty-box1{
+	height: 150px;
+	width: 75px;
+	top: 415px;
+	left: 419px;
+	position: absolute;
+}
+
+.empty-box2{
+	height: 150px;
+	width: 300px;
+	top: 415px;
+	left: 900px;
+	position: absolute;
 }
 
 .center img {
-	max-width: 100%;
-	max-height: 100%;
+	width: 1200px;
+	height: 99%;
+	object-fit: fill;
+
 }
 
 .side-right {
-	width: 200px;
+	width: 150px;
 	height: 500px;
 	margin-left: 40px;
 	margin-right: 20px;
-	background-color: grey;
+	background-color: #909090;
+	position: relative;
+}
+
+.side-right-img1{
+	width: 50%;
+	height: 22%;
+	position: absolute;
+	left: 50px;
+	top: 10px
+}
+
+.side-right-img2{
+	width: 60%;
+	height: 16%;
+	position: absolute;
+	left: 50px;
+	top: 140px
+}
+
+.side-right-img3{
+	background-image: url("../resources/brick.jpg");
+	width: 70%;
+	height: 16%;
+	position: absolute;
+	left: 30px;
+	top: 240px;
 }
 
 .footer{
-	max-width: 650px;
-	height: 200px;
+	max-width: 550px;
+	height: 175px;
 	margin-left: auto;
 	margin-right: 65%;
-	background-color: greenyellow;
+	background-color: #88FF89;
 	position: relative;
 	bottom: 80px;
 	left: 80px;
 	z-index: 1;
+}
+.footer-txt{
+	font-size: 20px;
+	line-height: 0.1;
+}
+
+.bigger { 
+	font-size:200%;
+}
+
+.field {
+	padding-top: 5px;
+}
+
+label{
+	font-style: italic;
+	font-size: 18px;
+}
+
+#example{
+	width: 380px;
+	height: 20px;
+	padding-right: 20px;
+	margin-right: 10px;
+	box-shadow:inset 2px 2px 3px black
+}
+
+input[type=submit] {
+	height: 100px;
 }
