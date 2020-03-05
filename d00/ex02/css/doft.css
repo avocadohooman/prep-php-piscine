@@ -106,10 +106,17 @@ body {
 	top: 420px;
 }
 .center {
-	width: 1200px;
+	width: 50%;
 	height: 700px;
 	background-color: #909090;
 	position: relative;
+}
+
+.center img {
+	width: 100%;
+	height: 99%;
+	object-fit: fill;
+
 }
 
 .empty-box1{
@@ -126,13 +133,6 @@ body {
 	top: 415px;
 	left: 900px;
 	position: absolute;
-}
-
-.center img {
-	width: 1200px;
-	height: 99%;
-	object-fit: fill;
-
 }
 
 .side-right {
@@ -199,13 +199,10 @@ label{
 }
 
 #example{
-	width: 380px;
+	width: 70%;
 	height: 20px;
 	padding-right: 20px;
 	margin-right: 10px;
 	box-shadow:inset 2px 2px 3px black
 }
 
-input[type=submit] {
-	height: 100px;
-}
