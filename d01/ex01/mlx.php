@@ -2,10 +2,9 @@
 <?php
 	$char = 'X';
 	$i = 0;
-	while ($i < 100)
+	while ($i < 1000)
 	{
 		echo $char;
 		$i++;
 	}
 ?>
-
