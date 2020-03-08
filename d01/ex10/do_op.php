@@ -2,7 +2,7 @@
 <?php
 
 if ($argc == 1)
-	print "Incorrect Paramters";
+	print "Incorrect Parameters";
 if ($argc > 1)
 {
 	if (strstr($argv[2], "+"))
