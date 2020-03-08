@@ -120,18 +120,18 @@ body {
 }
 
 .empty-box1{
-	height: 150px;
-	width: 75px;
-	top: 415px;
-	left: 419px;
+	height: 160px;
+	width: 110px;
+	top: 55%;
+	left: 32%;
 	position: absolute;
 }
 
 .empty-box2{
 	height: 150px;
-	width: 300px;
-	top: 415px;
-	left: 900px;
+	width: 250px;
+	top: 60%;
+	left: 75%;
 	position: absolute;
 }
 
