@@ -169,11 +169,15 @@ body {
 	top: 240px;
 }
 
+.hidden-img{
+	opacity: 100%;
+}
+
 .footer{
 	max-width: 550px;
-	height: 175px;
+	height: 145px;
 	margin-left: auto;
-	margin-right: 65%;
+	margin-right: 70%;
 	background-color: #88FF89;
 	position: relative;
 	bottom: 80px;
@@ -181,12 +185,17 @@ body {
 	z-index: 1;
 }
 .footer-txt{
-	font-size: 20px;
+	font-size: 17px;
 	line-height: 0.1;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.ordinateurs{
+	text-shadow: 2px 5px 3px #ff0000;
+}
 .bigger { 
 	font-size:200%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .field {
@@ -195,7 +204,8 @@ body {
 
 label{
 	font-style: italic;
-	font-size: 18px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
 }
 
 #example{
@@ -203,6 +213,7 @@ label{
 	height: 20px;
 	padding-right: 20px;
 	margin-right: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	box-shadow:inset 2px 2px 3px black
 }
 

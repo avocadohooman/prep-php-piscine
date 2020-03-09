@@ -7,4 +7,5 @@
 		echo $char;
 		$i++;
 	}
+	print "\n";
 ?>

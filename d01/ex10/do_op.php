@@ -12,7 +12,7 @@ if ($argc > 1)
 	else if (strstr($argv[2], "*"))
 		print($result = $argv[1] * $argv[3]);
 	else if (strstr($argv[2], "/"))
-		print($result = $argv[1] * $argv[3]);
+		print($result = $argv[1] / $argv[3]);
 	else if (strstr($argv[2], "%"))
 		print($result = $argv[1] % $argv[3]);
 }

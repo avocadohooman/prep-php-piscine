@@ -1,6 +1,6 @@
 img {
-	width: 768px;
-	height: 512px;
+	max-width: 512px;
+	max-height: auto;
 }
 table {
 	margin-left: auto;
@@ -39,18 +39,22 @@ table {
 .cell-style{
 	text-align: right;
 	font-family: Arial;
-	font-size: 10px;
-	padding-right: 5px;
-	font-size: 0.5vw;
-	margin: 0.1vw 0.1vw 0.4vw 0.1vw;
+	padding-left: 60%;
+	position: absolute;
+	top: 60%;
+	font-size: 0.4vw;
+	margin: 0.2vw 0.1vw 0.4vw 0.1vw;
 }
 td {
 	text-align: center;
 	font-family: Arial;
-	font-size: 15px;
+	font-size: 0.6vw;
 	font-weight: bold;
 	width: 5.5vw;
-	padding: 0.1vw;
+	padding-top: 0.2vw;
+	padding-left: 0.2vw;
+	padding-right: 0.2vw;
+	position: relative;
 }
 th {
 	font-size: 1.1vw;
@@ -61,8 +65,9 @@ th {
 .num{
 	text-align: left;
 	font-family: Arial;
-	font-size: 10px;
-	padding-left: 5px;
+	position: absolute;
+	top: 60%;
+	padding-left: 2%;
 	font-size: 0.4vw;
 	margin: 0.2vw 0.2vw 0.4vw 0.2vw;
 }
